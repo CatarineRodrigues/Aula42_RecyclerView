@@ -1,0 +1,23 @@
+package br.com.zup.marvel
+
+const val CAPITAO_AMERICA = "Capitão América"
+const val HOMEM_DE_FERRO = "Homem de Ferro"
+const val THOR = "Thor"
+const val HOMEM_ARANHA = "Homem Aranha"
+const val DOUTOR_ESTRANHO = "Doutor Estranho"
+const val HULK = "Hulk"
+const val STAR_LORD = "Star Lord"
+const val ROCKET_RACCOON = "Rocket Raccoon"
+const val GROOT = "Groot"
+const val GAMORA = "Gamora"
+
+const val DESCICAO_CAPITAO_AMERICA = "Os Capitães Américas vestem trajes inspirados na bandeira dos Estados Unidos e estão armados com um escudo quase indestrutível (feito de uma liga de adamantanium-vibranium, metais fictícios) que atiram em seus inimigos. O Capitão América mais famoso e popular e também o personagem original é o alter-ego de Steve Rogers, um jovem franzino que atinge o pico da perfeição humana após aplicar um soro experimental com o intuito de ajudar os Estados Unidos contra as potências do Eixo. Perto do fim da guerra, ficou preso no gelo e sobreviveu em animação suspensa até que foi revivido nos dias atuais."
+const val DESCICAO_HOMEM_DE_FERRO = "Sua verdadeira identidade é o empresário e bilionário Tony Stark, que usou armaduras de alta tecnologia no combate ao crime. Foi criado em 1963 pelo escritor Stan Lee, o roteirista Larry Lieber e os desenhistas Jack Kirby e Don Heck. Stan Lee aceitou o desafio de fazer um personagem ser odiado e depois amado pelo público, criando um dos super-heróis mais marcantes de todos os tempos."
+const val DESCICAO_THOR = "baseadas no deus Thor da Mitologia Nórdica, ele foi criado por Stan Lee e Jack Kirby. Sua principal arma é o martelo Mjonir. Estreando na Era de Prata dos quadrinhos, o personagem apareceu pela primeira vez em Journey into Mystery #83 (agosto de 1962). Ele é um membro fundador da equipe de heróis Vingadores."
+const val DESCICAO_HOMEM_ARANHA = "O Homem-Aranha (Spider-Man), o alter ego de Peter Parker, foi criado pelo escritor/editor Stan Lee e pelo escritor/artista Steve Ditko, o Homem-Aranha apareceu pela primeira vez na Amazing Fantasy #15 (01 de agosto de 1962), durante a Era de Prata dos Quadrinhos."
+const val DESCICAO_DOUTOR_ESTRANHO = "Sua origem relata que ele já foi um neurocirurgião brilhante, egoísta e dotado com um coeficiente intelectual (QI) próximos aos 177 pontos. Depois que um acidente de carro danificou severamente suas mãos e dificultou sua capacidade de realizar uma cirurgia, Stephen Strange viajou pelo mundo em busca de uma cura e encontrou o Ancião.[3] Após se tornar um dos antigos alunos do Mago Supremo, Strange se tornou um praticante tanto das artes místicas como das artes marciais. Além de conhecer muitos feitiços poderosos, ele possui dois objetos místicos que lhe concedem poderes adicionais: o Manto da Levitação e o Olho de Agamotto."
+const val DESCICAO_HULK = "Na história original dos quadrinhos, o Hulk é um selvagem e poderoso alter ego do Dr. Robert Bruce Banner, um cientista que foi atingido por raios gama enquanto salvava um adolescente durante o teste militar de uma bomba por ele desenvolvida."
+const val DESCICAO_STAR_LORD = "Peter Quill, também conhecido como Senhor das Estrelas (Star-Lord no original) é filho da humana Meredith Quill e do Spartoi J'son, Peter Quill assume o manto de Senhor das Estrelas, um policial interplanetário."
+const val DESCICAO_ROCKET_RACCOON = "Ele é um guaxinim antropomórfico inteligente, atirador habilidoso e grande estrategista. Seu nome e trejeitos são um aceno para a canção 'Rocky Raccoon', dos Beatles, de 1968."
+const val DESCICAO_GROOT = "Sua primeira versão foi criada por Stan Lee, Jack Kirby e Dick Ayers, aparecendo pela primeira vez em \"Tales to Astonish\" #13 (Novembro de 1960).[1] Nessa versão Groot era uma criatura com a aparência de uma árvore Humanoide, que buscava seres alienígenas para usá-las em experimentos científicos."
+const val DESCICAO_GAMORA = "Gamora foi a filha adotiva de Thanos, e a última de sua espécie. Ela já apareceu como o interesse amoroso de Adam Warlock e Nova. Também já foi membro do grupo conhecido como Guarda do Infinito e hoje integra o grupo Guardiões da Galáxia."

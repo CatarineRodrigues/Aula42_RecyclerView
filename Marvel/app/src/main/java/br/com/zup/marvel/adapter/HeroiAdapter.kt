@@ -4,6 +4,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import br.com.zup.marvel.*
 import br.com.zup.marvel.databinding.HeroiItemBinding
 import br.com.zup.marvel.model.Heroi
 
@@ -21,7 +22,18 @@ class HeroiAdapter(
         holder.exibirInformacoesView(heroi)
     }
 
-    override fun getItemCount() = listaHeroi.size
+    override fun getItemCount(): Int {
+        return listaHeroi.size
+    }
+
+    fun atualizarListaProduto(novaLista: MutableList<Heroi>) {
+        if (listaHeroi.size == 0) {
+            listaHeroi = novaLista
+        } else {
+            listaHeroi.addAll(novaLista)
+        }
+        notifyDataSetChanged()
+    }
 
     class ViewHolder(val binding: HeroiItemBinding) : RecyclerView.ViewHolder(binding.root) {
         fun exibirInformacoesView(heroi: Heroi) {
