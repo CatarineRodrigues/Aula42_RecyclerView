@@ -1,6 +1,7 @@
 package br.com.zup.marvel
 
 import android.content.Context
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.AttributeSet
@@ -24,6 +25,10 @@ class MainActivity : AppCompatActivity() {
         exibirRecyclerView()
         adicionarHeroiListaHeroi()
 
+        binding.rvListaHerois.setOnClickListener{
+            val intent = Intent(this, Detalhe::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun adicionarHeroiListaHeroi() {
