@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Marvel</string>
     <string name="mensagem">Alguns heróis da Marvel</string>
+    <string name="nome_heroi">Nome herói</string>
 </resources>

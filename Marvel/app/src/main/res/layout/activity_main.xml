@@ -10,8 +10,8 @@
         android:id="@+id/tvInformacao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/mensagem"
         android:layout_margin="@dimen/margem_16"
+        android:text="@string/mensagem"
         app:layout_constraintBottom_toTopOf=""
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,12 +22,10 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="@dimen/margem_16"
-        app:layout_constraintTop_toBottomOf="@id/tvInformacao"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
-
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvInformacao">
 
     </androidx.recyclerview.widget.RecyclerView>
-
-
+    
 </androidx.constraintlayout.widget.ConstraintLayout>
