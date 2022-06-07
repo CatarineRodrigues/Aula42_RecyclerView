@@ -27,5 +27,5 @@
         app:layout_constraintTop_toBottomOf="@id/tvInformacao">
 
     </androidx.recyclerview.widget.RecyclerView>
-    
+
 </androidx.constraintlayout.widget.ConstraintLayout>
