@@ -21,6 +21,11 @@ class HeroiAdapter(
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val heroi = listaHeroi[position]
         holder.exibirInformacoesView(heroi)
+        // setar a ideia de clique no card, depois chama a função e passa o heroi da l22
+        // a logica disso vai ser la na main
+        holder.binding.cvCardHeroi.setOnClickListener {
+            clickHeroi(heroi)
+        }
     }
 
     override fun getItemCount(): Int {

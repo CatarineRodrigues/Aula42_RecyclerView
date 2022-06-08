@@ -1,12 +1,8 @@
 package br.com.zup.marvel
 
-import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.AttributeSet
-import android.view.LayoutInflater
-import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import br.com.zup.marvel.adapter.HeroiAdapter
 import br.com.zup.marvel.databinding.ActivityMainBinding
@@ -15,7 +11,8 @@ import br.com.zup.marvel.model.Heroi
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private val heroiAdapter: HeroiAdapter by lazy {
-        HeroiAdapter(arrayListOf())
+        // :: referencia da função, para chamar ela
+        HeroiAdapter(arrayListOf(), ::irParaDetalheHeroi)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,13 +23,16 @@ class MainActivity : AppCompatActivity() {
         adicionarHeroiListaHeroi()
 
         binding.rvListaHerois.setOnClickListener {
-            val intent = Intent(this, Detalhe::class.java)
+            val intent = Intent(this, DetalheActivity::class.java)
             startActivity(intent)
         }
     }
 
     private fun irParaDetalheHeroi(heroi: Heroi) {
-
+        val intent  = Intent(this, DetalheActivity::class.java).apply {
+            putExtra("Heroi", heroi)
+        }
+        startActivity(intent)
     }
 
     private fun adicionarHeroiListaHeroi() {

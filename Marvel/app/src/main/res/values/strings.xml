@@ -2,4 +2,5 @@
     <string name="app_name">Marvel</string>
     <string name="mensagem">Alguns heróis da Marvel</string>
     <string name="nome_heroi">Nome herói</string>
+    <string name="detalhes_heroi">Detalhes do Herói</string>
 </resources>

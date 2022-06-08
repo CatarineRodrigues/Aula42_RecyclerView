@@ -8,6 +8,7 @@ class Heroi(
     private var nome: String,
     private var descricao: String
 ) : Parcelable {
+
     fun getNome() = this.nome
     fun getDescricao() = this.descricao
 }
