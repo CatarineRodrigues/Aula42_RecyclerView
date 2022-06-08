@@ -34,7 +34,8 @@ class DetalheActivity : AppCompatActivity() {
         val heroi = intent.getParcelableExtra<Heroi>("Heroi")
 
         if (heroi != null){
-            binding
+            binding.tvNomeHeroi.text = heroi.getNome()
+            binding.tvInformacaoHeroi.text = heroi.getDescricao()
         }
     }
 

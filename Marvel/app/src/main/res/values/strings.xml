@@ -3,4 +3,6 @@
     <string name="mensagem">Alguns heróis da Marvel</string>
     <string name="nome_heroi">Nome herói</string>
     <string name="detalhes_heroi">Detalhes do Herói</string>
+    <string name="txt_nome_heroi">Nome do Herói</string>
+    <string name="txt_info_heroi">Informações herói</string>
 </resources>

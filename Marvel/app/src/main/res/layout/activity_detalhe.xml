@@ -6,4 +6,34 @@
     android:layout_height="match_parent"
     tools:context=".DetalheActivity">
 
+    <ImageView
+        android:id="@+id/ivHeroiDetalhe"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tamanho_125"
+        android:src="@drawable/img_marvel"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvNomeHeroi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_nome_heroi"
+        android:layout_margin="@dimen/margem_16"
+        app:layout_constraintTop_toBottomOf="@id/ivHeroiDetalhe"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvInformacaoHeroi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_info_heroi"
+        android:layout_margin="@dimen/margem_16"
+        android:padding="@dimen/margem_16"
+        app:layout_constraintTop_toBottomOf="@id/tvNomeHeroi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
