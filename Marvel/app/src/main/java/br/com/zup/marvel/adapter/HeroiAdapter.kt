@@ -9,7 +9,8 @@ import br.com.zup.marvel.databinding.HeroiItemBinding
 import br.com.zup.marvel.model.Heroi
 
 class HeroiAdapter(
-    private var listaHeroi: MutableList<Heroi>
+    private var listaHeroi: MutableList<Heroi>,
+    private val clickHeroi: (heroi: Heroi) -> Unit
 ) : RecyclerView.Adapter<HeroiAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {

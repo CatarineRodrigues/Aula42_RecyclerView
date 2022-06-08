@@ -25,10 +25,14 @@ class MainActivity : AppCompatActivity() {
         exibirRecyclerView()
         adicionarHeroiListaHeroi()
 
-        binding.rvListaHerois.setOnClickListener{
+        binding.rvListaHerois.setOnClickListener {
             val intent = Intent(this, Detalhe::class.java)
             startActivity(intent)
         }
+    }
+
+    private fun irParaDetalheHeroi(heroi: Heroi) {
+
     }
 
     private fun adicionarHeroiListaHeroi() {
@@ -47,7 +51,7 @@ class MainActivity : AppCompatActivity() {
         heroiAdapter.atualizarListaProduto(listaNovaHeroi)
     }
 
-    private fun exibirRecyclerView(){
+    private fun exibirRecyclerView() {
         binding.rvListaHerois.adapter = heroiAdapter
         binding.rvListaHerois.layoutManager = LinearLayoutManager(this)
     }
