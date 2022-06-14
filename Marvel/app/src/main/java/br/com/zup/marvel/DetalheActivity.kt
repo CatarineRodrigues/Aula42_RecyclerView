@@ -30,10 +30,10 @@ class DetalheActivity : AppCompatActivity() {
         return super.onOptionsItemSelected(item)
     }
 
-    private fun recuperarHeroiSelecionado(){
+    private fun recuperarHeroiSelecionado() {
         val heroi = intent.getParcelableExtra<Heroi>("Heroi")
 
-        if (heroi != null){
+        if (heroi != null) {
             binding.tvNomeHeroi.text = heroi.getNome()
             binding.tvInformacaoHeroi.text = heroi.getDescricao()
         }
