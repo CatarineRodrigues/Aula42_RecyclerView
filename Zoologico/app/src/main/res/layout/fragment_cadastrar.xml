@@ -7,7 +7,6 @@
     android:paddingTop="@dimen/margem_16"
     tools:context=".fragments.CadastrarFragment">
 
-
     <TextView
         android:id="@+id/tvTituloCadastro"
         android:layout_width="match_parent"
@@ -64,11 +63,13 @@
         app:layout_constraintTop_toBottomOf="@id/etDescricaoAnimal" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvListaAnimal"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_margin="@dimen/margem_16"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btnAdicionar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

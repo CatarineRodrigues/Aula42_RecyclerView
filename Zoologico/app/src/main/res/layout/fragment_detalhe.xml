@@ -14,7 +14,7 @@
         android:layout_margin="@dimen/margem_16"
         android:contentDescription="@string/descricao_imagem"
         android:src="@drawable/animal"
-        app:layout_constraintBottom_toTopOf="@id/tvQuantidade"
+        app:layout_constraintBottom_toTopOf="@id/tvDescricao"
         app:layout_constraintEnd_toStartOf="@id/tvNomeAnimal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -23,9 +23,7 @@
         android:id="@+id/tvNomeAnimal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margem_16"
-        android:text="NomeProduto"
-        android:textAlignment="center"
+        android:text="Nome Animal"
         android:textSize="@dimen/font_16"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@id/imgAnimal"
@@ -34,7 +32,7 @@
         app:layout_constraintTop_toTopOf="@id/imgAnimal" />
 
     <TextView
-        android:id="@+id/tvQuantidade"
+        android:id="@+id/tvDescricao"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/margem_16"

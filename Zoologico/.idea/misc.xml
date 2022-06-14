@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/catarine.rodrigues/Desktop/Catalisa/Android/Aula42_RecyclerView/ListaExercicios/Zoologico/app/src/main/res/layout/activity_main.xml" value="0.165625" />
+        <entry key="..\:/Users/catarine.rodrigues/Desktop/Catalisa/Android/Aula42_RecyclerView/ListaExercicios/Zoologico/app/src/main/res/layout/animal_item.xml" value="0.17864583333333334" />
         <entry key="..\:/Users/catarine.rodrigues/Desktop/Catalisa/Android/Aula42_RecyclerView/ListaExercicios/Zoologico/app/src/main/res/layout/fragment_cadastrar.xml" value="0.22" />
         <entry key="..\:/Users/catarine.rodrigues/Desktop/Catalisa/Android/Aula42_RecyclerView/ListaExercicios/Zoologico/app/src/main/res/layout/fragment_detalhe.xml" value="0.1796875" />
       </map>
